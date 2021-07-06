@@ -1,7 +1,5 @@
-# Problem 10 - Asked By Apple - Medium
+# Problem 19 - Asked By Facebook - Medium
 
-Good morning! Here's your coding interview problem for today.
+A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while ensuring that no two neighboring houses are of the same color.
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function ``f`` and an integer ``n``, and calls ``f`` after ``n`` milliseconds.
+Given an N by K matrix where the n<sup>th</sup> row and k<sup>th</sup> column represents the cost to build the n<sup>th</sup> house with k<sup>th</sup> color, return the minimum cost which achieves this goal.

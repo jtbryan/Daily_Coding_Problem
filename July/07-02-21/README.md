@@ -1,7 +1,5 @@
-# Problem 10 - Asked By Apple - Medium
+# Problem 21 - Asked By Snapchat - Easy
 
-Good morning! Here's your coding interview problem for today.
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function ``f`` and an integer ``n``, and calls ``f`` after ``n`` milliseconds.
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.

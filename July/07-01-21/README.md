@@ -1,7 +1,9 @@
-# Problem 10 - Asked By Apple - Medium
+# Problem 20 - Asked By Google - Easy
 
-Good morning! Here's your coding interview problem for today.
+Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
 
-This problem was asked by Apple.
+For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the node with value 8.
 
-Implement a job scheduler which takes in a function ``f`` and an integer ``n``, and calls ``f`` after ``n`` milliseconds.
+In this example, assume nodes with the same value are the exact same node objects.
+
+Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.

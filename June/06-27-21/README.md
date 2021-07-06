@@ -1,7 +1,7 @@
-# Problem 10 - Asked By Apple - Medium
+# Problem 16 - Asked By Twitter - Easy
 
-Good morning! Here's your coding interview problem for today.
+You run an e-commerce website and want to record the last ``N`` ``order`` ids in a log. Implement a data structure to accomplish this, with the following API:
 
-This problem was asked by Apple.
-
-Implement a job scheduler which takes in a function ``f`` and an integer ``n``, and calls ``f`` after ``n`` milliseconds.
+* record(order_id): adds the order_id to the log
+* get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
+You should be as efficient with time and space as possible.
